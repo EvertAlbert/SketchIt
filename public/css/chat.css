@@ -1,0 +1,29 @@
+#chat {
+    background-color: lightgray;
+    border: solid 1px lightgray;
+    height: 100%;
+    right: 0;
+    width: 300px;
+}
+
+#chat .inputField {
+    width: 150px;
+}
+
+.chatWindow {
+    padding-left: 10px;
+    padding-top: 1rem;
+}
+
+.chatMessages {
+    overflow: auto;
+    height: 450px;
+
+    background-color: white;
+    padding: 10px;
+}
+
+.messagInputForm {
+    display: flex;
+    flex-direction: row;
+}
